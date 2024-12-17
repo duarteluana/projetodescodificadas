@@ -4,97 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jardineira</title>
-    <link rel="shortcut icon" href="./imagens/wood.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/wood.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <div class="container">
-            <header class="header">
+        <div class="container" id="templete-areas">
+            <header id="header">
                   <h1>Jardineira Móveis Rústicos</h1>
                   <p>Se você procura por móveis rústicos únicos e de qualidade está no lugar certo!</p>
-                <aside class="aside">
-                    <nav>
-                        <a href="#">Jardineira</a>
-                        <a href="#">Página Inicial</a>
-                        <a href="#">História</a>
-                        <a href="#">Equipe</a>
-                        <a href="#">Perguntas Frequentes</a>
-                    </nav>
-                </aside>
+                  <nav>
+                    <a href="#">Jardineira</a>
+                    <a href="#">Página Inicial</a>
+                    <a href="#">História</a>
+                    <a href="#">Equipe</a>
+                    <a href="#">Perguntas Frequentes</a>
+                </nav>
             </header>
-        </div>
 
-        <main>
+
+        <main id="content">
             <section class="aquivoceencontra">
+                 <h2>Aqui você encontra:</h2>
                    <nav>
-                       <a href="#">Mesas</a>
-                       <a href="#">Cadeiras</a>
-                       <a href="#">Armários</a>
-                       <a href="#">Camas</a>
-                       <a href="#">Sofás</a>
-                       <a href="#">Dormentes</a>
-                       <a href="#">Cruzetas</a>
-                       <a href="#">Bancos</a>
+                       <a href="#">Mesas - </a>
+                       <a href="#">Cadeiras - </a>
+                       <a href="#">Armários - </a>
+                       <a href="#">Camas - </a>
+                       <a href="#">Sofás - </a>
+                       <a href="#">Dormentes - </a>
+                       <a href="#">Cruzetas - </a>
+                       <a href="#">Bancos - </a>
                        <a href="#">E Muito mais!</a>
                    </nav>
             </section>
             <section class="fabricacaopropria">
                   <p>Fabricação Própria - Trabalhamos com Madeira de Demolição e Madeiras Nobres</p>
             </section>
+
             <div id="sobrenos">
                  <h2>Sobre Nós</h2>
-                 <pre>SOMOS UMA EMPRESA QUE REALIZA SONHOS... NOSSO OBETIVO SEMPRE FOI DE CRIAR QUALIDADE PARA OS NOSSOS CLIENTES.
-                      AQUI VOCÊ ENCONTRA UMA EMPRESA FAMILIAR QUE É REFERÊNCIA NO RAMO HÁ MAIS DE 30 ANOS.
-                      EXCELENTES PRODUTOS E O MELHOR PREÇO.
-                      DECORE A SUA VIDA!</pre>
-            <div>Temos:
-                <p>Mesa de Peroba Rosa</p>
+                 <p>Somos uma empresa que realiza sonhos!  Nosso objetivo sempre foi de criar qualidade para os nossos clientes. Aqui você encontra uma empresa familiar que é referência no ramo há mais de 30 anos. Excelentes produtos e o melhor preço! Decore a sua vida!!</p>
+
+                <div class="container2">
+                    <div id="temos">
+                    <h2>Temos: Mesa de Peroba Rosa</h2>
+                    </div>
+                    <div id="amar">
+                        <h2>Você vai amar: Dormentes de qualidade!</h2>
+                    </div>
+                    <div id="olha">Olha só:
+                    <p>Bancos de Cruzeta</p>
+                    </div>
+                    <div id="gracinha">
+                        <h2>Que gracinha: Aparador</h2>
+
+                    </div>
+                </div>
+
             </div>
-            <div>Você vai amar:
-                <p>Dormentes de qualidade!</p>
+
+            <div id="muitomais">
+                <h2>E MUITOOOOOOOOOOO MAIS!!!</h2>
+                <h3>Traga seu projeto!</h3>
+                <P>Dê autenticidade à sua vida.</P>
             </div>
-            <div>Olha só:
-                <p>Bancos de Cruzeta</p>
+
+            <div id="videos">
+                <video class="v1" src="videos/VID-20241215-WA0114.mp4" width="400px" height="400px" controls></video>
+                <video class="v2" src="videos/VID-20241215-WA0113.mp4" width="400px" height="400px" controls></video>
+                <video class="v3" src="videos/VID-20241215-WA0116.mp4" width="400px" height="400px" controls></video>
             </div>
-            <div>Que gracinha:
-                <p>Poço de Madeira</p>
-            </div>
-              <!-- ideia de colocar tb as cozinhas -->
-               <h3>E MUITOOOOOOOOOOO MAIS!!</h3>
-            <section>
-                <h2>Traga seu projeto</h2>
-                <P>DÊ AUTENTICIDADE À SUA VIDA</P>
-            </section>
-            <form action="CADASTRO" method="get">Informações de Contato</form>
-            <label for="inome">Nome</label>
-            <input type="nome" name="inome" id="">
-            <br>
-            <label for="iemail">Email</label>
-            <input type="email" name="email" id="iemail">
-            <br>
-            <label for="iendereco">Endereço</label>
-            <input type="text" name="endereco" id="iendereco">
-            <br>
-            <label for="itel">Telefone</label>
-            <input type="tel" name="tel" id="itel">
-            <br>
-            <label for="icomentario">Comentarios</label>
-            <textarea id="icomentario" cols="30" rows="8"></textarea>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar formulário">
-            <nav>
-                <button><a href="">Conheça nosso Instagram</a></button>
-            </nav>
-            <div>
-                <img src="" alt="mapa da loja">
-            </div>
-            <div>
-                <h2>Contato e Localização</h2>
-                <p>VIADUTO EDWARD C. LEME, S/N - DONA CATARINA - MAIRINQUE/SP <br> HORÁRIO:  DE SEGUNDA À SEXTA DAS 8H AS 17H</p>
-            </div>
+            
+
+
+    <div class="formucontato">
+        <div id="formulario">
+                        <h2>Informações de Contato</h2>
+                        <form action="CADASTRO" method="get"></form><br>
+                        <label for="inome">Nome:</label><br>
+                        <input type="nome" name="inome" id="">
+                        <br>
+                        <label for="iemail">Email:</label><br>
+                        <input type="email" name="email" id="iemail">
+                        <br>
+                        <label for="iendereco">Endereço:</label><br>
+                        <input type="text" name="endereco" id="iendereco">
+                        <br>
+                        <label for="itel">Telefone:</label><br>
+                        <input type="tel" name="tel" id="itel">
+                        <br><br>
+                        <label for="icomentario">Comentarios:</label>
+                        <textarea id="icomentario" cols="40" rows="8"></textarea><br><br>
+                        <input class="envia" type="submit" value="Enviar">
+                        <input class="limpa" type="reset" value="Limpar formulário">
+        </div>
+        
+        
+        
+                    <div class="contato">
+                        <h2>Localização</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3160.494443833131!2d-47.2476181252557!3d-23.423455456539166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m5!1s0x94cf69cfe859ef15%3A0xb38a68e4dee58900!2sViaduto%20Edward%20C.%20Leme%2C%20Mairinque%20-%20SP!3m2!1d-23.4229414!2d-47.2448123!4m3!3m2!1d-23.4239122!2d-47.2447905!5e1!3m2!1spt-BR!2sbr!4v1734376898865!5m2!1spt-BR!2sbr" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                        <p>Viaduto Edward C. Leme, S/N - Dona Catarina - Mairinque/SP <br> Horário: de Segunda à Sábado das 08hs às 17hs</p>
+                    </div>
+    </div>
+
         </main>
 
-        <footer>Site agora sim finalizado por: Luana Duarte 😊</footer>
+        <footer id="rodape"><p>Criado por: <br>Luana Duarte </p>
+            <nav>
+                <button class="instagram"><a href="https://www.instagram.com/jardineiramoveisrusticos/?next=%2Fjardineiramoveisrusticos%2F" target="_blank">Conheça nosso Instagram</a></button>
+            </nav>
+        </footer>
+   
     
 </body>
 </html>
