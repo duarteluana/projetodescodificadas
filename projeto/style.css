@@ -228,8 +228,7 @@ header > p {
 }
 
  #formulario {
-   
-    border: 3px solid blue;
+    border: 2px solid rgb(135, 7, 7);
     height: 510px;
     padding: 10px;
     margin-right: 50px;
@@ -258,7 +257,7 @@ header > p {
  }
 
 .contato {
-    border: 1px solid black;
+    border: 2px solid rgb(135, 7, 7);
     border-radius: 10px;
     height: 510px;
     padding: 10px;
